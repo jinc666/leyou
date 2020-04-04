@@ -171,4 +171,11 @@ public class GoodsService {
         this.spuDetailMapper.updateByPrimaryKeySelective(spuBo.getSpuDetail());
 
     }
+
+    /**
+     * good
+     */
+    public static void main(String[] args) {
+        System.out.println("HelloWorld");
+    }
 }
