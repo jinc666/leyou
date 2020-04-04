@@ -11,6 +11,7 @@
         <module name="leyou-item-interface" />
         <module name="leyou-item-service" />
         <module name="leyou-registry" />
+        <module name="leyou-search" />
         <module name="leyou-upload" />
       </profile>
     </annotationProcessing>
@@ -25,6 +26,7 @@
       <module name="leyou-item-interface" options="-parameters" />
       <module name="leyou-item-service" options="-parameters" />
       <module name="leyou-registry" options="-parameters" />
+      <module name="leyou-search" options="-parameters" />
       <module name="leyou-upload" options="-parameters" />
     </option>
   </component>

@@ -172,13 +172,4 @@ public class GoodsService {
 
     }
 
-    /**
-     * good
-     */
-    public static void main(String[] args) {
-        System.out.println("怎么看不到我提交的分支");
-        System.out.println("github");
-        System.out.println("hhh");
-        System.out.println("aaa");
-    }
 }
