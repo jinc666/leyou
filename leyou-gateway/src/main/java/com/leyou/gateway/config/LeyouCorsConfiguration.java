@@ -29,10 +29,12 @@ public class LeyouCorsConfiguration {
         // 4）允许的头信息
         corsConfiguration.addAllowedHeader("*");
 
+        String hhh = null;
         //初始化cors配置源
         UrlBasedCorsConfigurationSource urlBase = new UrlBasedCorsConfigurationSource();
         urlBase.registerCorsConfiguration("/**", corsConfiguration);
         //返回corsFilters实例，参数；cors配置源对象
         return new CorsFilter(urlBase);
+
     }
 }
